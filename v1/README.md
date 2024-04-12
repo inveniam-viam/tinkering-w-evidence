@@ -1,56 +1,13 @@
-# Evidence Template Project
+# A First Experiment with Evidence
 
-Welcome to Evidence. Use this project template to get started.
+I came across [Evidence](https://evidence.dev) while looking a list of YC-backed companies operating out of Canada. 
 
-## Get Started from VS Code
+I'm currently a graduate student pursuing analytics at McGill University. SQL is something that comes a lot more naturally to me as compared to web development, something I haven't played with in a long time.
 
-The easiest way to get started is using the [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=evidence-dev.evidence), which copies this template.
+I absolutely love hearing stories about open-source products but this one has blown it out of the park: the setup was completely hassle-free, and the experience writing just SQL and Markdown whilst creating a webpage/report so minimalistic yet beautiful was seamless.
 
-1. Install the extension from the VS Code Marketplace
-2. Open the Command Palette (Ctrl/Cmd + Shift + P) and enter `Evidence: New Evidence Project`
-3. Click `Start Evidence` in the bottom status bar
+This is by no means a very BI heavy report: it just analyzes some data on alcohol consumption across the globe. I used it to run some SQL the way I would to crunch metrics using a combination of functions, and created some graphics wherever I could.
 
-## Get Started using the CLI
+Unfortunately, I have not gotten access to Evidence Cloud because of which I haven't been able to publish this yet - however, if interested in taking a look at the SQL code:
+The actual file is the `/pages/index.md` [file](https://github.com/inveniam-viam/tinkering-w-evidence/blob/main/v1/pages/index.md).
 
-```bash
-npx degit evidence-dev/template my-project
-cd my-project 
-npm install 
-npm run sources
-npm run dev 
-```
-
-Check out the docs for [alternative install methods](https://docs.evidence.dev/getting-started/install-evidence) including Docker, Github Codespaces, and alongside dbt.
-
-
-## Codespaces
-
-If you are using this template in Codespaces, click the `Start Evidence` button in the bottom status bar.
-
-Alternatively, use the following commands to get started:
-
-```bash
-npm install
-npm run sources
-npm run dev -- --host 0.0.0.0
-```
-
-See [the CLI docs](https://docs.evidence.dev/cli/) for more command information.
-
-**Note:** Codespaces is much faster on the Desktop app. After the Codespace has booted, select the hamburger menu → Open in VS Code Desktop.
-
-## Connection Issues
-
-If you see `✗ orders_by_month Missing database credentials`, you need to add the connection to the demo database:
-
-1. Open the settings menu at [localhost:3000/settings](http://localhost:3000/settings)
-2. select `DuckDB`
-3. enter `needful_things`
-4. select `.duckdb` and save
-
-## Learning More
-
-- [Docs](https://docs.evidence.dev/)
-- [Github](https://github.com/evidence-dev/evidence)
-- [Slack Community](https://slack.evidence.dev/)
-- [Evidence Home Page](https://www.evidence.dev)
